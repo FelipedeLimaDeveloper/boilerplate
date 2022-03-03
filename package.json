@@ -6,14 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+  "husky": {
+    "hooks": {
+      "pre-commit": "",
+      "pre-push": ""
+    }
+  },
+       "repository": {
     "type": "git",
     "url": "git+https://github.com/FelipedeLimaDeveloper/boilerplate.git"
   },
   "author": "Felipe de Lima",
-  "license": "MIT",
+      "license": "MIT",
   "bugs": {
     "url": "https://github.com/FelipedeLimaDeveloper/boilerplate/issues"
   },
-  "homepage": "https://github.com/FelipedeLimaDeveloper/boilerplate#readme"
+  "homepage": "https://github.com/FelipedeLimaDeveloper/boilerplate#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4"
+  }
 }

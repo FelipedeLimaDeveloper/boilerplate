@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeLens": true,
+    "explorer.compactFolders": false
+}
